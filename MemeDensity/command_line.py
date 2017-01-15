@@ -34,7 +34,7 @@ else:
 
 def _login_fb():
 
-	email = input('> Email or Phone: ')
+	email = raw_input('> Email or Phone: ')
 	password = getpass('> Password: ')
 
 	return email,password
